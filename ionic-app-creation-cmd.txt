@@ -1,0 +1,10 @@
+ionic start myApp blank --type react
+
+working with capacitor:
+ionic build
+ionic cap add ios - add native platforms, ios
+ionic cap add android - add native platforms, android
+ionic cap sync
+ionic cap open android
+
+ionic cap run ios --livereload --external
